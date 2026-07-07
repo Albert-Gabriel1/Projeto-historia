@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+menu{
+    border: 2px solid black;
+    background-color: rgb(244, 178, 178);
+    height: 90px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+nav{
+    height: 58%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.linkHome{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.5s;
+    padding: 6px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: red;
+    color: white;
+    transform: scale(0.9);
+}
+h1,h2{
+    text-align: center;
+}
+.conteudo{
+    padding-top: 90px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#ir{
+    padding: 25px;
+    background-color: #ED2939;
+    color: #fcbf32;
+    font-weight: 600;
+}
+#ib{
+    padding: 25px;
+    background-color: #0f2353;
+    color: #ff133a;
+    font-weight: 600;
+}
+#ib ul{
+    color: #FFFFFF;
+}
+#im{
+    padding: 25px;
+    background-color: #0066B3;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#ia{
+    padding: 25px;
+    background-color: #000000;
+    color: #FFCD01;
+    font-weight: 600;
+}
+#iai{
+    border: 2px solid white;
+}
+#ic{
+    padding: 25px;
+    background-color: #FFB200;
+    color: #063f71;
+    font-weight: 600;
+}
+#ie{
+    padding: 25px;
+    background-color: #ffffff;
+    color: #AA151B;
+    font-weight: 600;
+}
+#ip{
+    padding: 25px;
+    background-color: #239F40;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#ip ul{
+    color: #DA0000;
+}
+#iru{
+    padding: 25px;
+    background-color: #FFCD01;
+    color: #000000;
+    font-weight: 600;
+}
+#iru ul{
+    color: #FFFFFF
+}
+#io{
+    padding: 25px;
+    background-color: #E30A17;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#if{
+    padding: 25px;
+    background-color: #FFFFFF;
+    color: #0055A4;
+    font-weight: 600;
+}
+#if ul{
+    color:#EF4135;
+}
+a{
+    display: flex;
+    flex-flow: row wrap;
+    color:red;
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.5s;
+    padding: 6px;
+}
+
+.imagens{
+    margin: auto;
+    display: block;
+    width: 72%;
+    max-height: 470px;
+    border: 2px solid black;
+}
+h2{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
